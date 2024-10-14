@@ -10,9 +10,9 @@ export default function ButtonList({ children }) {
 
     return (
         <div className="button-section">
-        <div className="button-list">
-            {children}
-        </div>
+            <div className="button-list">
+                {children}
+            </div>
             <ExampleCodeBlock language="jsx">{codeString}</ExampleCodeBlock>
         </div>
     )

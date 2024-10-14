@@ -12,6 +12,10 @@ import TestimonialWithPic from './components/Testimonial/indexWithPic';
 import TestimonialNoPic from './components/Testimonial/indexNoPic';
 import ButtonList from './components/Button/ButtonList';
 import Button from './components/Button/Button';
+import TooltipList from './components/Tooltip/TooltipList';
+import TooltipEl from './components/Tooltip/TooltipEl';
+import { Tooltip } from 'react-tooltip'
+import { BiHelpCircle, BiAddToQueue, BiBlock } from "react-icons/bi";
 
 function App() {
   return (
@@ -146,6 +150,34 @@ function App() {
         <Button size="" variant="warning">warning</Button>
         <Button size="lg" variant="danger">danger</Button>
       </ButtonList>
+
+      <h1 className="section-heading">Tooltips</h1>
+      <TooltipList>
+        <TooltipEl 
+          id="tooltip-anchor-help" 
+          anchorSelect="#tooltip-anchor-help" 
+          place="right" 
+          text={"A tooltip is a floating element that displays information when it receives keyboard focus or the mouse hovers over it."}>
+          <BiHelpCircle />
+        </TooltipEl>
+
+        <TooltipEl 
+          id="tooltip-anchor-add" 
+          anchorSelect="#tooltip-anchor-add" 
+          place="bottom" 
+          text={"Add to queue"}>
+          <BiAddToQueue />
+        </TooltipEl>
+
+        <TooltipEl 
+          id="tooltip-anchor-block" 
+          anchorSelect="#tooltip-anchor-block" 
+          place="top" 
+          text={"Action unavailable"}>
+          <BiBlock />
+        </TooltipEl>
+      </TooltipList>
+
     </>
   )
 }

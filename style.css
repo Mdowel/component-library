@@ -438,3 +438,18 @@ button.button-danger {
     background-color: #FEF2F2;
     border-color: #F87171;
 }
+
+/*******
+Tooltips 
+********/
+.tooltip-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 2.5em;
+}
+
+.tooltip-anchor {
+    font-size: 2rem;
+    display: flex;
+    margin: 1em;
+}
