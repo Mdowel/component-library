@@ -6,6 +6,7 @@ export default function CardList({children}) {
     <Card>
         <Card.Icon> <IconComponent> </Card.Icon>
         <Card.Heading>Heading</Card.Heading>
+        <hr />
         <Card.Text>Text</Card.Text>
     </Card>
     `

@@ -2,6 +2,6 @@ import React from "react";
 
 export default function CardHeading({children}) {
     return (
-        <h2>{children ? children : "Easy Deployment"}</h2>
+        <h3>{children ? children : "Easy Deployment"}</h3>
     )
 }
