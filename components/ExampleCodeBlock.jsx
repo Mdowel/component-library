@@ -11,5 +11,3 @@ export default function ExampleCodeBlock({ children, language }) {
         </div>
     )
 }
-
-//add a comment

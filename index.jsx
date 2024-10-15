@@ -92,7 +92,7 @@ function App() {
             </Card.Text>
           </Card>
 
-          <Card>
+          <Card className="dark">
             <Card.Icon></Card.Icon>
             <Card.Heading>Pro Plan</Card.Heading>
             <hr />

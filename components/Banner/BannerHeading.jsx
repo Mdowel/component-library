@@ -17,6 +17,6 @@ export default function BannerHeading({children}) {
     }
 
     return (
-        <h1>{children ? children : bannerHeading}</h1>
+        <h3>{children ? children : bannerHeading}</h3>
     )
 }
