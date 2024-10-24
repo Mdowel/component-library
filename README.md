@@ -1,19 +1,33 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+<img width="1032" alt="component-library" src="https://github.com/user-attachments/assets/d4a4f30a-51be-43cf-9178-180ba6fee55d">
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+A collection of reusable UI components that can be applied across various projects. Built with functional React components.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+### Built With
 
-Happy Coding!
+* [![React][React.js]][React-url]
+* CSS
+
+
+<!-- CONTACT -->
+## Contact
+
+Michelle Dowell - michelledowell6@gmail.com
+
+Project Link: [https://resonant-crisp-ef98e9.netlify.app/](https://resonant-crisp-ef98e9.netlify.app/)
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [game-icons.net](https://game-icons.net/)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Scrimba](https://scrimba.com/allcourses)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+
+
